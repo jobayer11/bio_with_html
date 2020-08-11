@@ -1,0 +1,105 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 70%;
+	margin: 0 auto;
+	background-color: GhostWhite;
+	/*border: 1px solid red;*/
+}
+.header{
+	overflow: hidden;
+	padding-top: 20px;
+}
+.left_header{
+	width: 70%;
+	margin-left: 25px;
+	float: left;
+	/*border: 1px solid red;*/
+}
+p{
+	margin: 0;
+}
+.re_header{
+	font-weight: 700;
+	font-size: 30px;
+	text-decoration: underline;
+	margin-bottom: 30px;
+}
+.name{
+	font-weight: 700 ;
+	font-size: 23px;
+}
+.mail a{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+.right_header{
+	width: 20%;
+	float: right;
+	/*border: 1px solid red;*/
+}
+.image{
+	width: 80%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+img{
+	width: 100%;
+}
+.divider_row{
+	width: 95.3%;
+	margin: 0 auto;
+	border: 5px solid tomato;
+}
+.personal_data{
+	margin: 5px 0px 0px 25px;
+}
+.info_header{
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 23px;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+table{
+	margin-bottom: 10px;
+}
+table, tr, td {
+	/*border: 1px solid black;*/
+	/*border-collapse: collapse;*/
+	font-size: 18px;
+}
+td:nth-child(2) {
+	padding: 0px 30px;
+}
+.about_me{
+	width: 75%;
+	margin: 0px 0px 10px 25px;
+	/*border: 1px solid red;*/
+}
+.education{
+	margin: 0px 0px 10px 25px;
+}
+.edu_cell_gap{
+	padding-top: 43px;
+}
+.declaration{
+	margin-left: 25px;
+}
+.detail_dec p{
+	margin-top: 30px;
+	font-weight: 700;
+}
+.signature{
+	/*border: 1px solid red;*/
+}
+.sign{
+	width: 25%;
+	/*border: 1px solid red;*/
+}
+.sign img{
+	width: 100%;
+}
